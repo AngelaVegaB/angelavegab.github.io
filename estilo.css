@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333; /* Color de texto general */
+    background: #f4f4f9; /* Color de fondo suave */
+}
+header, section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333366;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer i {
+    color: #3b5998; /* Color específico para Facebook */
+    margin: 0 10px;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+.fa-instagram-square { color: #e4405f; }
+.fa-whatsapp-square { color: #25d366; }
+section {
+    padding: 20px;
+    clear: both;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+footer a:hover {
+    opacity: 0.8;
+}
+header img {
+    float: right;
+    width: 150px; /* Ajusta esto según el tamaño deseado */
+    height: 150px; /* Asegúrate de que el ancho y el alto sean iguales */
+    border-radius: 50%; /* Esto hará que la imagen sea completamente redonda */
+    margin-left: 20px; /* Añade espacio entre la imagen y el texto */
+}
+header {
+    position: relative;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden; /* Asegura que todo el contenido se mantenga dentro del header */
+}
+
+header h1, header p {
+    margin-right: 180px; /* Ajusta este valor según el tamaño de tu imagen para evitar solapamientos */
+}
